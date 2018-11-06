@@ -4,11 +4,10 @@
 ``` bash
 docker run -ti \
   --rm \
-  --name linkchecker \
   -v $(pwd)/linkcheckerrc:/root/.linkchecker/linkcheckerrc \
-  jare/linkchecker \
+  schliflo/docker-linkchecker \
     --check-extern \
-    http://develop.spacemacs.org
+    https://google.com
 ```
 
-[Config example](https://github.com/JAremko/docker-linkchecker/blob/master/linkcheckerrc)
+[Config example](https://github.com/schliflo/docker-linkchecker/blob/master/linkcheckerrc)
