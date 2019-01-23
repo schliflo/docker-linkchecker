@@ -156,7 +156,7 @@
 #localwebroot=/C|/public_html/
 # Check SSL certificates. Set to an absolute pathname for a custom
 # CA cert bundle to use. Set to zero to disable SSL certificate verification.
-#sslverify=1
+sslverify=0
 # Stop checking new URLs after the given number of seconds. Same as if the
 # user hits Ctrl-C after X seconds.
 #maxrunseconds=600
