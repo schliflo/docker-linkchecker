@@ -21,4 +21,3 @@ RUN apk --no-cache add --virtual build-deps \
 COPY linkcheckerrc /root/.linkchecker/linkcheckerrc
 
 ENTRYPOINT ["linkchecker"]
-
